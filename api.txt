@@ -1,0 +1,8 @@
+1.get_emails
+功能：該 API 用於查詢來自特定寄件人的 Gmail 郵件，返回符合條件的郵件的主題、寄件人和郵件正文。
+所需參數：specific_sender
+範例： m120108030@tmu.edu.tw
+2.send_email
+功能：該 API 用於寄送訊息給特定收件人。
+所需參數：receiver_email,body
+範例： m120108030@tmu.edu.tw,'你好，已收到你的郵件。謝謝'
